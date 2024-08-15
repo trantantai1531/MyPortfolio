@@ -1,15 +1,16 @@
-import Header from './Header.jsx'
+import React from 'react';
+
 import Navbar from './Navbar/Navbar.jsx'
 
-function App() {
+const App = () => {
 
-return(
-  <>
-  <Navbar/>
-  <Header/>
-  </>
-);
+  return (
+    <>
+      <Navbar />
 
-}
+    </>
+  );
+
+};
 
 export default App
